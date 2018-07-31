@@ -41,36 +41,6 @@ def get_words():
 	# print(words)
 	return words
 
-# def separate(lines, words):
-# 	total_words = []
-# 	for line in lines:
-# 		terms = []
-# 		j = 1
-# 		current_word_start = 0
-# 		last_ok = 0
-# 		while j <= len(line):
-# 			current_word = line[current_word_start:j]
-# 			# print(current_word)
-# 			if current_word in words:
-# 				# print("IN WORDS")
-# 				last_ok = j
-# 				last_ok_serie.append((current_word_start, j))
-# 			elif last_ok != 0 :
-# 					terms.append(line[current_word_start:last_ok])
-# 					current_word_start = j - 1
-# 					last_ok = 0
-# 					j-=1
-# 			j+=1
-# 		if last_ok != 0:
-# 			terms.append(line[current_word_start:last_ok])
-# 		if terms == [] or last_ok != len(line) :
-# 			print(line)
-# 			total_words.append([line])
-# 		else :
-# 			print(" ".join(terms))
-# 			total_words.append(terms)
-# 	return total_words
-
 def is_number(num_str):
     try:
     	int(num_str)
