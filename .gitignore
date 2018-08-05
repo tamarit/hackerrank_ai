@@ -30,3 +30,8 @@ from-paragraphs-to-sentences/input01.txt
 a-text-processing-warmup/output01.txt
 a-text-processing-warmup/input01.txt
 a-text-processing-warmup/salida01
+t9-predictions/input01.txt
+t9-predictions/output.txt
+t9-predictions/output01.txt
+t9-predictions/salida
+t9-predictions/salida01
